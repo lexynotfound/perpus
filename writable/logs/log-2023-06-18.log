@@ -1,0 +1,721 @@
+INFO - 2023-06-18 10:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:18 --> CSRF token verified.
+INFO - 2023-06-18 10:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 11:00:09 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 11:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 11:04:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `tgl_laporan` < IS NULL' at line 4 in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\app\Controllers\LaporanBuku.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\LaporanBuku->date()
+#6 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-18 11:04:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `tgl_laporan` < IS NULL' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Controllers\LaporanBuku.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanBuku->date()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 11:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:09:48 --> CSRF token verified.
+INFO - 2023-06-18 11:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:10:05 --> CSRF token verified.
+INFO - 2023-06-18 11:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:10:18 --> CSRF token verified.
+INFO - 2023-06-18 11:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:12:08 --> CSRF token verified.
+INFO - 2023-06-18 12:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:04:25 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 12:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:04:27 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 12:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:04:47 --> CSRF token verified.
+INFO - 2023-06-18 12:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:04:54 --> CSRF token verified.
+INFO - 2023-06-18 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:05:01 --> CSRF token verified.
+INFO - 2023-06-18 12:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:05:58 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 12:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:07:07 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:07:22 --> CSRF token verified.
+INFO - 2023-06-18 12:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:12:19 --> CSRF token verified.
+INFO - 2023-06-18 12:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:12:34 --> CSRF token verified.
+INFO - 2023-06-18 12:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:12:40 --> CSRF token verified.
+INFO - 2023-06-18 12:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:12:47 --> CSRF token verified.
+INFO - 2023-06-18 12:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:42:43 --> CSRF token verified.
+INFO - 2023-06-18 12:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:42:49 --> CSRF token verified.
+INFO - 2023-06-18 12:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:42:54 --> CSRF token verified.
+INFO - 2023-06-18 12:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:43:01 --> CSRF token verified.
+INFO - 2023-06-18 12:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:43:07 --> CSRF token verified.
+INFO - 2023-06-18 12:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:14 --> CSRF token verified.
+INFO - 2023-06-18 13:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:19 --> CSRF token verified.
+INFO - 2023-06-18 13:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:06:44 --> CSRF token verified.
+INFO - 2023-06-18 13:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:07:58 --> CSRF token verified.
+INFO - 2023-06-18 13:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:08:42 --> CSRF token verified.
+INFO - 2023-06-18 13:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:10:23 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:10:29 --> CSRF token verified.
+INFO - 2023-06-18 13:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:10:38 --> CSRF token verified.
+INFO - 2023-06-18 13:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:11:21 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:11:31 --> CSRF token verified.
+INFO - 2023-06-18 13:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:14:30 --> CSRF token verified.
+CRITICAL - 2023-06-18 13:14:30 --> Undefined property: stdClass::$id_laporan_peminjaman
+in APPPATH\Views\laporan\index.php on line 76.
+ 1 APPPATH\Views\laporan\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\MAMP\\htdocs\\perpus\\app\\Views\\laporan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\LaporanPengembalian.php(65): view()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->date()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:16:49 --> CSRF token verified.
+CRITICAL - 2023-06-18 13:16:49 --> Undefined property: stdClass::$id_laporan_peminjaman
+in APPPATH\Views\laporan\index.php on line 76.
+ 1 APPPATH\Views\laporan\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\MAMP\\htdocs\\perpus\\app\\Views\\laporan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\LaporanPengembalian.php(65): view()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->date()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:17:40 --> CSRF token verified.
+INFO - 2023-06-18 13:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:17:46 --> CSRF token verified.
+INFO - 2023-06-18 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:25:27 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 103.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:25:48 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 103.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:25:49 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 103.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:25:50 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 103.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:26:14 --> Undefined array key "buku"
+in APPPATH\Controllers\LaporanPengembalian.php on line 103.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:26:15 --> Undefined array key "buku"
+in APPPATH\Controllers\LaporanPengembalian.php on line 103.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:26:34 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 104.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:27:21 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 104.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:27:22 --> Attempt to read property "buku" on array
+in APPPATH\Controllers\LaporanPengembalian.php on line 104.
+ 1 APPPATH\Controllers\LaporanPengembalian.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanPengembalian->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:29:18 --> CSRF token verified.
+INFO - 2023-06-18 13:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:17:32 --> CSRF token verified.
+ERROR - 2023-06-18 14:17:32 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(348): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-18 14:17:32 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(348): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 14:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:46 --> CSRF token verified.
+INFO - 2023-06-18 14:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:20:59 --> CSRF token verified.
+ERROR - 2023-06-18 14:20:59 --> mysqli_sql_exception: Column 'deleted_at' cannot be null in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(348): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-18 14:20:59 --> Column 'deleted_at' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(348): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:21:53 --> CSRF token verified.
+INFO - 2023-06-18 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:23:01 --> CSRF token verified.
+INFO - 2023-06-18 14:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:23:12 --> CSRF token verified.
+ERROR - 2023-06-18 14:23:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`)) in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(348): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-18 14:23:12 --> Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(348): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 14:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:28:52 --> CSRF token verified.
+INFO - 2023-06-18 14:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:36:02 --> CSRF token verified.
+ERROR - 2023-06-18 14:36:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`)) in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(349): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-18 14:36:02 --> Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(349): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 14:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:40:35 --> CSRF token verified.
+INFO - 2023-06-18 14:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:48:06 --> CSRF token verified.
+ERROR - 2023-06-18 14:48:06 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`)) in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(327): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-18 14:48:06 --> Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(327): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 14:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:48:09 --> CSRF token verified.
+INFO - 2023-06-18 14:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 14:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:06:55 --> CSRF token verified.
+ERROR - 2023-06-18 15:06:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`)) in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(349): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-18 15:06:55 --> Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_laporan_denda`, CONSTRAINT `tbl_laporan_denda_denda_id_foreign_key_tbl_denda` FOREIGN KEY (`denda_id`) REFERENCES `tbl_denda` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(349): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:04 --> CSRF token verified.
+INFO - 2023-06-18 15:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:10:18 --> CSRF token verified.
+INFO - 2023-06-18 15:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:11 --> CSRF token verified.
+CRITICAL - 2023-06-18 15:17:11 --> Attempt to read property "denda" on array
+in APPPATH\Controllers\Pinjam.php on line 348.
+ 1 APPPATH\Controllers\Pinjam.php(348): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:39 --> CSRF token verified.
+INFO - 2023-06-18 15:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:18:14 --> CSRF token verified.
+INFO - 2023-06-18 15:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 15:33:43 --> mysqli_sql_exception: Unknown column 'tbl_laporan_buku.id' in 'field list' in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\app\Controllers\LaporanDenda.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\LaporanDenda->index()
+#6 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-18 15:33:43 --> Unknown column 'tbl_laporan_buku.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Controllers\LaporanDenda.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanDenda->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 15:37:21 --> mysqli_sql_exception: Unknown column 'tbl_laporan_denda.id_laporan_buku' in 'field list' in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\app\Controllers\LaporanDenda.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\LaporanDenda->index()
+#6 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-18 15:37:21 --> Unknown column 'tbl_laporan_denda.id_laporan_buku' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Controllers\LaporanDenda.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanDenda->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 15:38:09 --> Undefined variable $laporanbuku
+in APPPATH\Views\laporandenda\index.php on line 78.
+ 1 APPPATH\Views\laporandenda\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\MAMP\\htdocs\\perpus\\app\\Views\\laporandenda\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\LaporanDenda.php(45): view()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanDenda->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:40:27 --> CSRF token verified.
+INFO - 2023-06-18 15:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:40:32 --> CSRF token verified.
+INFO - 2023-06-18 15:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:40:39 --> CSRF token verified.
+INFO - 2023-06-18 15:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 15:41:22 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 15:41:25 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-18 15:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 15:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 16:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

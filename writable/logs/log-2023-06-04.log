@@ -1,0 +1,77 @@
+INFO - 2023-06-04 02:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:46:58 --> CSRF token verified.
+INFO - 2023-06-04 02:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:47:08 --> CSRF token verified.
+INFO - 2023-06-04 02:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:47:27 --> CSRF token verified.
+ERROR - 2023-06-04 02:47:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_denda`, CONSTRAINT `tbl_denda_pinjam_id_foreign` FOREIGN KEY (`pinjam_id`) REFERENCES `tbl_pinjam` (`id`) ON DELETE CASCADE) in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(536): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-04 02:47:28 --> Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_denda`, CONSTRAINT `tbl_denda_pinjam_id_foreign` FOREIGN KEY (`pinjam_id`) REFERENCES `tbl_pinjam` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(536): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
+INFO - 2023-06-04 02:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:48:18 --> CSRF token verified.
+INFO - 2023-06-04 02:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 02:48:44 --> CSRF token verified.
+ERROR - 2023-06-04 02:48:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_denda`, CONSTRAINT `tbl_denda_pinjam_id_foreign` FOREIGN KEY (`pinjam_id`) REFERENCES `tbl_pinjam` (`id`)) in C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\MAMP\htdocs\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\MAMP\htdocs\perpus\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\MAMP\htdocs\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 C:\MAMP\htdocs\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\MAMP\htdocs\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 C:\MAMP\htdocs\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert()
+#7 C:\MAMP\htdocs\perpus\app\Controllers\Pinjam.php(536): CodeIgniter\Model->insert()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-06-04 02:48:44 --> Cannot add or update a child row: a foreign key constraint fails (`mangsel`.`tbl_denda`, CONSTRAINT `tbl_denda_pinjam_id_foreign` FOREIGN KEY (`pinjam_id`) REFERENCES `tbl_pinjam` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Pinjam.php(536): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pinjam->pinjamBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\MAMP\\htdocs\\perpus\\public\\index.php')
