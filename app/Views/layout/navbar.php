@@ -40,13 +40,13 @@
                                             Login
                                         </button>
                                     </a>
-                                    <!--  <a href="<?= base_url('register'); ?> " class="text-decoration-none">
+                                    <a href="<?= base_url('register'); ?> " class="text-decoration-none">
                                         <button class="btn btn-info text-white" type="submit">
                                             Register
                                         </button>
                                     </a>
-                                </div> -->
-                                <?php endif ?>
+                                </div>
+                            <?php endif ?>
                         </li>
 
                     </ul>

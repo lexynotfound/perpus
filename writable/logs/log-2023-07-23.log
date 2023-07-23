@@ -1,0 +1,21 @@
+INFO - 2023-07-23 09:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 09:32:54 --> CSRF token verified.
+INFO - 2023-07-23 09:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-23 09:33:16 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.sertifikasifit.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\MAMP\htdocs\perpus\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\MAMP\htdocs\perpus\system\Email\Email.php(1863): fsockopen()
+#2 C:\MAMP\htdocs\perpus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\MAMP\htdocs\perpus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\MAMP\htdocs\perpus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#12 {main}
+ERROR - 2023-07-23 09:33:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-23 09:33:16 --> 
+INFO - 2023-07-23 09:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
