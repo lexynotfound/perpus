@@ -19,3 +19,8 @@ Stack trace:
 ERROR - 2023-07-23 09:33:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
 ERROR - 2023-07-23 09:33:16 --> 
 INFO - 2023-07-23 09:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 15:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 15:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 15:13:18 --> CSRF token verified.
+INFO - 2023-07-23 15:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-23 15:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
