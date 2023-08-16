@@ -92,6 +92,8 @@ class Home extends BaseController
         return view('home/index', $data);
     }
 
+    
+
     public function detail($id = 0)
     {
         $data = [
