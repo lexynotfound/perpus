@@ -1,0 +1,117 @@
+CRITICAL - 2024-12-09 13:36:25 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-12-09 13:36:57 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-12-09 13:37:46 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-12-09 13:38:26 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+INFO - 2024-12-09 14:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:03:45 --> CSRF token verified.
+INFO - 2024-12-09 14:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:03:54 --> CSRF token verified.
+INFO - 2024-12-09 14:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:05 --> CSRF token verified.
+INFO - 2024-12-09 14:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:05:51 --> CSRF token verified.
+INFO - 2024-12-09 14:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 14:06:14 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.sertifikasifit.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\MAMP\htdocs\perpus\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\MAMP\htdocs\perpus\system\Email\Email.php(1863): fsockopen()
+#2 C:\MAMP\htdocs\perpus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\MAMP\htdocs\perpus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\MAMP\htdocs\perpus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#12 {main}
+ERROR - 2024-12-09 14:06:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-12-09 14:06:14 --> 
+INFO - 2024-12-09 14:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:07:18 --> CSRF token verified.
+INFO - 2024-12-09 14:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:07:38 --> CSRF token verified.
+INFO - 2024-12-09 14:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 14:08:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.sertifikasifit.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\MAMP\htdocs\perpus\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\MAMP\htdocs\perpus\system\Email\Email.php(1863): fsockopen()
+#2 C:\MAMP\htdocs\perpus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\MAMP\htdocs\perpus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\MAMP\htdocs\perpus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#12 {main}
+ERROR - 2024-12-09 14:08:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-12-09 14:08:00 --> 
+INFO - 2024-12-09 14:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:11:27 --> CSRF token verified.
+INFO - 2024-12-09 14:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:11:44 --> CSRF token verified.
+INFO - 2024-12-09 14:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:11:51 --> CSRF token verified.
+INFO - 2024-12-09 14:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:00 --> CSRF token verified.
+INFO - 2024-12-09 14:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:16 --> CSRF token verified.
+INFO - 2024-12-09 14:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:28 --> CSRF token verified.
+INFO - 2024-12-09 14:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:13:57 --> CSRF token verified.
+INFO - 2024-12-09 14:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 14:13:58 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for mail.s2i.co.id failed: No such host is known.  in C:\MAMP\htdocs\perpus\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\MAMP\htdocs\perpus\system\Email\Email.php(1863): fsockopen()
+#2 C:\MAMP\htdocs\perpus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\MAMP\htdocs\perpus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\MAMP\htdocs\perpus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 C:\MAMP\htdocs\perpus\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send()
+#7 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 C:\MAMP\htdocs\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\MAMP\htdocs\perpus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\MAMP\htdocs\perpus\system\Commands\Server\rewrite.php(47): require_once('...')
+#12 {main}
+ERROR - 2024-12-09 14:13:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-12-09 14:13:58 --> 
+INFO - 2024-12-09 14:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
